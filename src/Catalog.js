@@ -7,7 +7,7 @@ return(
 <div className="products">
 
 {anyshop.map((element => {
-const {id,name,searchTerm, price,size, image} = element;
+const {id,name, price,size, image} = element;
 return (
 
 <div className="product-card" key={id}>
