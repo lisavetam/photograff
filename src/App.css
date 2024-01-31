@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: #f0f0f0;
+ 
+ 
+  
+}
+nav {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.link{
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #6f7577 ;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+}
+.link:hover {
+  color: #ff5933;
+}
+  
+.container {
+
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.foto {
+
+  margin: 20px;
+  height: 600px;
+  margin-top: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.btn {
+
+  display: flex;
+ justify-content: space-evenly;
+
+}
+
+button {
+
+  
+  color: #302e2e;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  border-color: #f0f0f0;
+}
+ 
+
+
+.header{
+  color:  #ff5933;
+}
+h1,h2,h3,h4,p{
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  font-size: 15px;
+}
+h4{
+color: #6f7577 ;
+font-size: 12px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+}
+
+.cont {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.back {
+
+  background-color: #f4e524; 
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+
+}
+
+
+.change {
+  background-color: white;
+  color: #6f7577 ;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
+.change: hover{
+  
+  color: #ff5933;
+
+}
+
+
+.trans{
+display: flex;
+justify-content: center;
+height: 100%;
+
+
+
+}
+.AboutMe{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 20px;
+  padding: 20px;
+  margin: 30px;
+  margin-top: 5px;
+}
+
+
+.mb-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
+  padding: 10px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif; 
+}
+.formsOne{
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif; 
+  width: 150px;
+  margin-top: 30px;
+  width: 70%;
+ 
+}
+.forms{
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif; 
+  width: 50px;
+  margin-top: 30px;
+  width: 70%;
+  padding: 10px;
+  height: 100px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Price{
+  display: flex;
+ justify-content: space-between;
+ padding: 40px;
+}
+
+.Social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
