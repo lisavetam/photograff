@@ -27,6 +27,7 @@ function App() {
   <div>
     <Router>
    <nav>
+   <Link to="/" className='link'>Home</Link>
     <Link to="/About" className='link'>ELIZAVETA SCHLEGEL</Link>
     <Link to="/Gallery" className='link'>Gallery</Link>
   
@@ -34,7 +35,7 @@ function App() {
     <Link to="/Contact" className='link'>Contact</Link>
    </nav>
    <Routes>
-   
+   <Route path="/" element ={<Gallery/>}/>
     <Route path="/Gallery" element ={<Gallery/>}/>
     <Route path="/About" element ={<About/>}/>
     <Route path="/Shop" element ={<Shop/>}/>
